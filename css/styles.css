@@ -1,0 +1,394 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #434455;
+  background: #fff;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+ol {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+  margin-bottom: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+img {
+  display: block;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+}
+
+.header-navigation {
+  background-color: #ffffff;
+  border-bottom: 1px solid #e7e9fc;
+}
+
+.container {
+  padding: 0 15px;
+  margin: 0 auto;
+  width: 1158px;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-header {
+  color: #4d5ae5;
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+  margin-right: 76px;
+  padding: 24px 0;
+}
+
+.logo-span {
+  color: #2e2f42;
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+}
+
+.menu-list {
+  align-self: flex-start;
+  display: flex;
+  gap: 40px;
+}
+
+.manu-nav {
+  color: #2e2f42;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  display: block;
+  padding: 24px 0;
+}
+.manu-nav:hover,
+.manu-nav:focus {
+  color: #404bbf;
+}
+
+.address {
+  font-style: normal;
+}
+.address-list {
+  display: flex;
+  gap: 40px;
+}
+.contacts {
+  color: #434455;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.32px;
+}
+
+.contacts:hover,
+.contacts:focus {
+  color: #404bbf;
+}
+.container {
+  width: 1158px;
+  margin: 0 auto;
+}
+.section.section-title {
+  background-color: #2e2f42;
+  padding-top: 188px;
+  padding-bottom: 188px;
+}
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+.section {
+  padding: 120px 0;
+}
+
+section {
+  display: block;
+}
+.hero-title.container {
+  max-width: 496px;
+}
+.hero-title {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  text-align: center;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 1.12px;
+  background: #2e2f42;
+  flex-shrink: 0;
+  margin-bottom: 48px;
+}
+button {
+  cursor: pointer;
+  text-transform: none;
+  font-family: inherit;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+  align-items: center;
+}
+.hero-btn {
+  color: #ffffff;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  background-color: #4d5ae5;
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section-button:hover,
+.section-button:focus {
+  background-color: #404bbf;
+}
+h2 {
+  display: block;
+  font-size: 1.5em;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+.features {
+  padding: 120px 0 120px;
+}
+.container {
+  width: 1158px;
+  margin: 0 auto;
+}
+.features-list {
+  display: flex;
+  gap: 24px;
+}
+.features-title {
+  color: #2e2f42;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.features-title {
+  color: #2e2f42;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  margin-bottom: 72px;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.features-item {
+  background-color: #ffffff;
+  width: calc((100% - 3 * 24px) / 4);
+}
+.features-title.direction {
+  margin-bottom: 8px;
+}
+.article-work {
+  color: #434455;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.article-work,
+.article-team,
+.article-potfolio {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.team-section {
+  background: #f4f4fd;
+}
+
+.title-medium {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  margin-bottom: 72px;
+}
+
+.page-team {
+  background-color: #ffffff;
+  border-radius: 0px 0px 4px 4px;
+  width: calc((100% - 72px) / 4);
+}
+
+.cards-team {
+  display: flex;
+  gap: 24px;
+}
+
+.wrapper {
+  padding: 32px 0;
+}
+
+.title-team.person {
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.title-team {
+  color: #2e2f42;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.article-team.position {
+  text-align: center;
+}
+.article-team {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.section.section-portfolio {
+  color: #2e2f42;
+}
+
+.title-medium {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  margin: 0;
+  margin-bottom: 72px;
+}
+
+.page-portfolio {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+
+.size-portfolio {
+  width: calc((100% - 48) / 3);
+}
+
+.footer {
+  background: #2e2f42;
+}
+
+.title-portfolio.title {
+  margin-bottom: 8px;
+}
+
+.title-portfolio {
+  color: #2e2f42;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.category {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+}
+.article-potfolio {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.footer.page {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.footer {
+  background-color: #2e2f42;
+}
+footer {
+  display: block;
+}
+.footer-logo.block {
+  display: inline-block;
+  margin-bottom: 16px;
+}
+.footer-logo {
+  color: #4d5ae5;
+  font-family: Raleway, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  justify-content: center;
+}
+
+.logo-light {
+  color: #f4f4fd;
+}
+
+.footer-aside {
+  color: #f4f4fd;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  max-width: 264px;
+}
