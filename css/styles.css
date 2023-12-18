@@ -449,6 +449,7 @@ footer {
   line-height: 24px;
   letter-spacing: 0.032em;
   justify-content: center;
+  display: flex;
 }
 .logo-light {
   color: #f4f4fd;
